@@ -1,0 +1,101 @@
+
+.todo{
+    width: 80%;
+       max-width: 1200px;
+       margin: 0 auto;
+}
+
+.header {
+  background: url(../img/Header.png) no-repeat center center/cover !important;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.nav{
+  padding: 1px;
+  background-color: #4c3271;
+  color: white
+  
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    }
+    .nav ul a {
+       text-decoration: none;
+       
+    }
+    .nav ul{
+       display: flex;
+       list-style: none;
+    }
+
+.header-content{
+  background: url(../img/header.png) no-repeat center;
+  padding: 1px;
+  color: white;
+  height: 200px
+}
+.header-content h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-content h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.fechas {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.intro{
+  color:#d4990d;
+  text-align: center;
+  font-size: 50px ;
+}
+.falta{
+  background-color: #d4990d;
+}
+.falta img{
+  display: flex;
+  height:100px
+}
+ .dias{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+ }
+
+.dias img{
+  height: 200px;
+}
+#info{
+text-align: center;
+color: white
+}
+.expo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px;
+}
+.expo img{
+  height: 200px
+}
+.actividades{
+  background-color: #ae4038;
+  color: white
+}
+.actividades h1{
+  color: #d4990d;
+}
